@@ -6,6 +6,29 @@
 > - Each new "post" is stacked at the top of the document. It is dated and sometimes contains a hastag to associate it to a group of notes
 > - Keep it simple
 
+## 2023 Nov 12th
+
+## Open-source vs. Source-available licenses
+
+I have been reading all I can find about business that are built on top of code that is available for free.
+
+Companies that choose that approach usually rely on one of the following two categories of software licenses: *open-source* (as per the definition of the [open source initiative](https://opensource.org/) or *source-available*.
+
+These licenses differ in one key point: while both enable free access to the source code, *source-available* licenses prevent thrid parties from using the code to create a competing business offering. As explained in this great post by Vlad A. Ionescu entitled [Earthly Switches to Open-source](https://earthly.dev/blog/earthly-open-source/), *the main reason for using a more restrictive license is to prevent the competition from offering your product as a service*.
+
+Despite the noble function of protecting the underdogs (who create and share their code with the community) against the advances of hyperscalers that want to create competing
+business offers, adopting source-available licenses for dev tools creates a point of friction for onboarding new users, including enterprise users, who are not entirely sure if
+they can use source-available software inside their own products. This might even culminate in losing clients. On the other hand, every company understands open-source software, and
+they know they can use it inside their own offerings without risks.
+
+The post mentioned above explores the learnings of Earthly when trying to use source-available instead open-source licenses to distribute their product. They ended up **switching back
+to plain open-source** after negative feedback from contributors and clients, plus an increase in friction during the onboarding of enterprise clients who wanted to incorporate
+Earthly's software inside their own offerings (without being competitors).
+
+The **key takeaway** is: if your business can benefit from sharing the source code for free with the community, and your are developing something to empower developers, make
+sure to choose a open-source license instead of a source-available.
+
+
 ## 2023 Nov 7th
 
 During my career so far, and specially now as I build ogre.run, I have stumbled upon many new insights on what makes a dev tool great.
