@@ -6,6 +6,14 @@
 > - Each new "post" is stacked at the top of the document. It is dated and sometimes contains a hastag to associate it to a group of notes
 > - Keep it simple
 
+## 2023 Dec 14th
+
+The “cloud for developers” space is getting more and more interesting. Off-loading your coding environment & computing to the cloud with the click of a button is truly what most (AI) developers want. Google collab, Streamlit, Replit are all part of most devs arsenal. And things continue to move forward – see this great tool announced by [lightning.ai](https://www.linkedin.com/posts/pytorch-lightning_lightning-ai-studios-ugcPost-7140763990384599041-XLN9?utm_source=share&utm_medium=member_desktop)  
+
+However, we can’t forget that easy portability back from the cloud to local environments is crucial for deploying AI everywhere. A myriad of problems arise when bringing apps from well-behaved cloud environments to local (edge) production environments – you see everything from libraries that break (due to difference in OS and hardware) to apps that require manual refactoring to run outside of the cloud. 
+
+Transitioning back-and-forth from cloud to local environments is a hard problem to solve. Overcoming that can unlock many opportunities to streamline development AND deployment anywhere.   
+
 ## 2023 Nov 12th
 
 ## Open-source vs. Source-available licenses
